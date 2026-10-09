@@ -98,7 +98,7 @@ h1 {
 .card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08); }
 .shot {
   aspect-ratio: 16 / 9; border-radius: 10px; margin-bottom: 16px;
-  background: repeatinglinear-gradient(45deg, var(--bg), var(--bg) 10px, var(--line) 10px, var(--line) 11px);
+  background: repeating-linear-gradient(45deg, var(--bg), var(--bg) 10px, var(--line) 10px, var(--line) 11px);
   display: grid; place-items: center;
   color: var(--muted); font-size: 0.85rem;
   overflow: hidden;
